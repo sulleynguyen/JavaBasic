@@ -33,7 +33,7 @@ public class TestNhapNgayThangNam {
             int age =  yearNow - getYearBorn;
             System.out.println("Tuoi cua ban: " + age);
         } catch (ParseException ex) {
-            System.out.println("Ban nhap sai ngay thang nam sinh");
+            System.out.println("Ban nhap sai ngay thang nam sinh cua ban");
         }
 
     }
